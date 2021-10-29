@@ -17,6 +17,3 @@ create table food_date (
     log_date_id integer not null,
     primary key(food_id, log_date_id)
 );
-
-# sqlite3 food_log.db < food_tracker.sql
-# .tables
